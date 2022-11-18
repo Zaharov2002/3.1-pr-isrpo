@@ -178,6 +178,13 @@ namespace _3._1_pr_isrpo
             summ = s1 - 3;
             TextBox3.Text = summ.ToString();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            TextBox1.Text = "0";
+            TextBox2.Text = "0";
+            TextBox3.Text = "0";
+        }
     }
 }
 
